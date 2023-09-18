@@ -7,6 +7,9 @@
 </head>
 <body>
 
+    
+    <h2>Job Application</h1>
+
     <form action="">
         <label for="name">Name</label>
         <input type="text" name="name" id="name">
@@ -45,16 +48,52 @@
             <input type="checkbox" name="checkbox1" id="checkbox1">
             <label for="checkbox1">HTML</label>
 
-            <br/>
-
             <input type="checkbox" name="checkbox2" id="checkbox2">
             <label for="checkbox2">CSS</label>
-            
-            <br/>
 
             <input type="checkbox" name="checkbox3" id="checkbox3">
             <label for="checkbox3">JavaScript</label>
         </fieldset>
+
+        <br/>
+
+        <label for="option">Highest Education</label>
+
+        <select name="dropdown" id="options">
+            <option value="BCA">BCA</option>
+            <option value="MCA">MCA</option>
+            <option value="BBA">BBA</option>
+            <option value="MBA">MBA</option>
+        </select>
+
+        <br/>
+        <br/>
+
+        <fieldset>
+            <legend>Availability</legend>
+
+            <label for="radio1">Full-Time</label>
+            <input type="radio" name="radio1" id="radio1">
+
+            <label for="radio2">Part-Time</label>
+            <input type="radio" name="radio2" id="radio2">
+
+        </fieldset>
+
+        <br/>
+        <br/>
+
+        <label for="textarea">Additional Comments</label>
+        <br/>
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+
+        <br/>
+        <br/>
+
+        <input type="submit" name="submit" id="submit" value="Submit Application">
+
+        <br/>
+        <br/>
 
     </form>
     
